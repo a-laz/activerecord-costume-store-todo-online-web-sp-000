@@ -11,9 +11,9 @@ class CreateCostumes < ActiveRecord::Migration[5.1]
   def change
     create_table :costumes |c| do
       add_column :costumes, :name, :string
-      add_column :costumes, :name, :string
-      add_column :costumes, :name, :string
-      add_column :costumes, :name, :string
+      add_column :costumes, :price, :integer
+      add_column :costumes, :size, :integer
+      add_column :costumes, :image_url, :string
     end
   end
 end
