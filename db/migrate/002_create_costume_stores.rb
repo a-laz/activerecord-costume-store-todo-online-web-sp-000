@@ -9,4 +9,6 @@ class CreateCostumeStores < ActiveRecord::Migration[5.2]
       c.boolean :in_business
       c.float :opening_time
       c.float :closing_time
-      
+    end
+  end
+end
